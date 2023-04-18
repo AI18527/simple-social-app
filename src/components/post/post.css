@@ -1,0 +1,13 @@
+.likes {
+    font-size: 1rem;
+}
+
+.post{
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-color: darkred;
+    border-style: solid;
+    border-radius: 1ch;
+    padding: 1rem;
+}

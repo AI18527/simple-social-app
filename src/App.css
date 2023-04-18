@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  color:darkred;
+  border-bottom: 0.1rem;
+  border-color: darkred;
+  border-bottom-style: solid ;
+} 
+
+main {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.userForms{
+  padding: 1rem;
+  border-style: solid;
+  border-color: darkred;
+  border-radius: 1ch;
+  align-self: start;
+  margin-bottom: 2rem;
+}
+
+.posts{
+  flex-grow: 1;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+button{
+  border-style: solid;
+  border-color: darkred;
+  border-radius: 1ch;
+  border-width: 0.01rem;
+  color: darkred;
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  margin: 0.2rem;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  color: white;
+  background-color: darkred;
+}
+
+input::placeholder {
+  color: rgba(139, 0, 0, 0.437)
+}
+
+input{
+  border-style:dashed;
+  border-color: darkred;
+  border-radius: 1ch;
+  border-width: 0.01rem;
+  color:black;
+  padding: 0.5rem;
+}
